@@ -5,15 +5,16 @@ $('#ir').click(function(event){
   console.log(stringBuffer);
   searchPlace(stringBuffer);
 
+
+
 });
 
-$('#inputdata irgps').click(function(){
+$('#inputdata #irgps').click(function(){
 	console.log('button pulsado');
 	getLocation();
 	
 });
 
-$("#city").jeoCityAutoComplete();
 
 function searchPlace(place){
 
@@ -26,6 +27,8 @@ function searchPlace(place){
 	}
 
 }
+
+$("#city").jeoCityAutoComplete();
 
 function getLocation(){
 	if (navigator.geolocation){
