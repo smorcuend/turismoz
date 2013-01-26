@@ -1,0 +1,12 @@
+{
+    "name":"turismoz",
+    "developer": {
+        "name":"@smorcuend",
+        "url":"smorcuend.github.com"
+    },
+    "launch_path": "/index.html",
+    "description":"Make tourism with firefox os",
+    "icons":{
+        "128":"/icon.png"
+    }
+}

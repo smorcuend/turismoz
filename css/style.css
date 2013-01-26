@@ -1,0 +1,25 @@
+body,html {
+	overflow: hidden;
+	background-color: #444;
+	text-align: center;
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-shadow:1px -1px 1px #888;
+}
+
+header{
+	color: rgb(45, 43, 42); 
+	margin-top: 2em; 
+}
+header span{ font-size:3em;}
+
+body div{
+	color: rgb(145, 143, 142); 
+	text-shadow:1px 0px 1px #666;
+	margin:0 auto;
+}
+
+#inputdata{
+	margin:2em auto;
+}
+#inputdata input{}
+
